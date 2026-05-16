@@ -3,7 +3,21 @@
 > **Premium University Platform** — Production-ready, portfolio-grade **full-stack** project.  
 > Started as a landing page, upgraded into a **multi-page scalable platform** with APIs, admin architecture, GSAP animations, and CMS-ready data layer.
 
-**Status:** ✅ **COMPLETE** — Build passes · 32 routes · Deploy-ready
+## Live Demo
+
+**[https://edu-verse-elite.vercel.app](https://edu-verse-elite.vercel.app/)**
+
+| | |
+|---|---|
+| **Status** | Live on Vercel |
+| **Home** | [edu-verse-elite.vercel.app](https://edu-verse-elite.vercel.app/) |
+| **Programs** | [/programs](https://edu-verse-elite.vercel.app/programs) |
+| **Admissions** | [/admissions](https://edu-verse-elite.vercel.app/admissions) |
+| **Faculty** | [/faculty](https://edu-verse-elite.vercel.app/faculty) |
+| **Blog** | [/blog](https://edu-verse-elite.vercel.app/blog) |
+| **Contact** | [/contact](https://edu-verse-elite.vercel.app/contact) |
+
+**Project status:** Live · 32 routes · Build passes
 
 ---
 
@@ -37,6 +51,7 @@
 | **Language** | TypeScript |
 | **Styling** | Tailwind CSS v4 |
 | **Brand** | Original fictional university (not a copy of any real site) |
+| **Live URL** | [https://edu-verse-elite.vercel.app](https://edu-verse-elite.vercel.app/) |
 
 ### What This Project Does
 
@@ -399,24 +414,33 @@ npm run lint
 
 ## 13. Deploy to Vercel
 
-1. Push code to GitHub
-2. Import on [vercel.com](https://vercel.com)
-3. Add environment variables in Vercel dashboard
-4. For database: use [Vercel Postgres](https://vercel.com/storage/postgres) or [Neon](https://neon.tech)
-5. Run `npx prisma db push` after first deploy (or in CI)
+**This project is already live at:** [https://edu-verse-elite.vercel.app](https://edu-verse-elite.vercel.app/)
+
+Repository: [SaloniSsSaini/EduVerse-Elite](https://github.com/SaloniSsSaini/EduVerse-Elite) (GitHub)
+
+### Redeploy / update steps
+
+1. Push changes to GitHub `main` branch
+2. Vercel auto-deploys from [vercel.com](https://vercel.com)
+3. Set environment variables (optional):
+
+| Variable | Example |
+|----------|---------|
+| `NEXT_PUBLIC_SITE_URL` | `https://edu-verse-elite.vercel.app` |
+| `DATABASE_URL` | PostgreSQL connection string |
+| `RESEND_API_KEY` | For email notifications |
+| `ADMIN_SECRET` | For `/admin/leads` API |
 
 ```bash
-npx vercel
+npx vercel --prod
 ```
-
-Update `NEXT_PUBLIC_SITE_URL` in `src/data/site.ts` or env after deploy.
 
 ---
 
 ## 14. Interview / Portfolio Tips
 
 **Elevator pitch:**
-> "I built EduVerse Elite — a full-stack university platform with Next.js 15, TypeScript, GSAP animations, Prisma-ready APIs, multi-page architecture, admin lead management, and production SEO. It scales from a premium landing page to a complete admissions funnel."
+> "I built EduVerse Elite — a full-stack university platform with Next.js 15, TypeScript, GSAP animations, Prisma-ready APIs, multi-page architecture, admin lead management, and production SEO. **Live demo:** https://edu-verse-elite.vercel.app"
 
 **Demo flow for recruiters:**
 1. Home → scroll animations, dark mode, stats
@@ -452,4 +476,4 @@ MIT — Free for portfolio and educational use.
 
 **Built with:** Next.js 15 · TypeScript · Tailwind CSS · GSAP · Framer Motion · Prisma · Zod · Lenis
 
-**Project status:** ✅ **v2.0 COMPLETE** — Ready for portfolio, internship submission, and Vercel deployment
+**Project status:** Live at [edu-verse-elite.vercel.app](https://edu-verse-elite.vercel.app/) — Portfolio & internship ready

@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   tagline: "Where Future Leaders Are Forged",
   description:
     "A new-age, tech-driven university offering industry-aligned programmes that prepare students for employment and entrepreneurship in the global economy.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://eduverse-elite.vercel.app",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://edu-verse-elite.vercel.app",
   email: "admissions@eduverseelite.edu",
   phone: "+91 79 1234 5678",
   address: "Knowledge Park, Ahmedabad, Gujarat 380015, India",
